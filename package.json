@@ -35,8 +35,12 @@
     "webpack-dev-server": "^3.4.1"
   },
   "author": "Spinoble",
-  "license": "ISC",
+  "private": true,
   "scripts": {
     "start": "webpack-dev-server --config webpack.config.js --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ZsoltKissZamp/StefansWebPage.git"
   }
 }
